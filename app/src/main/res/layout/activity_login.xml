@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="#ffecff14">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ffecff14"
+            android:gravity="center"
+            tools:context=".MainActivity">
+            <EditText
+                android:layout_height="45dp"
+                android:layout_width="220dp"
+                android:imeOptions="actionNext|flagNoExtractUi"
+                android:hint="Usuario"
+                android:id="@+id/edtUsuario"
+                android:inputType="textWebEmailAddress" />
+            <EditText
+                android:layout_height="45dp"
+                android:layout_width="220dp"
+                android:imeOptions="actionDone"
+                android:hint="password"
+                android:inputType="textPassword"
+                android:id="@+id/edtPassword"
+                />
+            <Button
+                android:layout_height="45dp"
+                android:layout_width="220dp"
+                android:text="Ingresar"
+                android:id="@+id/btnLogin"
+                android:onClick="onLogin"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

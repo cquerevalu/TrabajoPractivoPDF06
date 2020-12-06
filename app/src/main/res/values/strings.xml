@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="dominio">https://exhibitionist-promp.000webhostapp.com</string>
+    <string name="login">/login.php?Usuario=</string>
+    <string name="insertarcliente">/insertarcliente.php?</string>
+    <string name="vercliente">/clientes.php</string>
+</resources>
